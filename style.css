@@ -13,6 +13,7 @@ nav {
     border-radius: 30px;
     cursor: pointer;
     font-size: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -30,3 +31,24 @@ nav {
 }
 
 /* grid layout styles */
+
+td {
+    border: 1px solid black;
+    font-size: large;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.button-group {
+    background-color: black;
+    width: 15%;
+    align-items: center;
+}
+
+.orange-button {
+    background-color: #DD0000;
+}
