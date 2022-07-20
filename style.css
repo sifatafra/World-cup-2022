@@ -1,4 +1,6 @@
-/* nav bar style */
+/*---------------- 
+   nav bar style 
+   -----------------*/
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -14,8 +16,8 @@ nav {
     cursor: pointer;
     font-size: 30px;
     margin-bottom: 30px;
-
 }
+
 
 
 
@@ -28,9 +30,12 @@ nav {
     border-radius: 5px;
 
 
+
 }
 
-/* grid layout styles */
+/* -----------------------
+      grid layout styles 
+      -----------------------*/
 
 td {
     border: 1px solid black;
@@ -43,12 +48,135 @@ td {
     background-color: white;
 }
 
+/*-----------------
+button styles
+-------------------*/
 .button-group {
     background-color: black;
     width: 15%;
+    height: 30%;
     align-items: center;
+    margin-top: 10px;
 }
 
 .orange-button {
     background-color: #DD0000;
+}
+
+/*-----------------
+       grid styles 
+       -----------------*/
+.all-groups {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+
+    width: 70%;
+}
+
+.matches {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.matches img {
+    width: 60%;
+
+
+}
+
+.match-groups {
+    display: flex;
+    box-shadow: 40px;
+    justify-content: center;
+
+}
+
+/*----------------------
+    footer styles 
+    ------------------*/
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+
+
+
+
+}
+
+#footer-menu a {
+    text-decoration: none;
+    color: azure;
+    padding: 15px;
+
+
+}
+
+#social-links a {
+    padding: 10px;
+    color: #E8E8E8;
+}
+
+/* -----------------------------
+     media query for mobiles
+-----------------------------*/
+@media only screen and (max-width:688px) {
+
+    .nav-bar {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .first-img {
+        width: 100%;
+    }
+
+    .match-groups {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .button-group {
+        width: 100%;
+        margin-left: 25px;
+        background-color: white;
+
+    }
+
+    .all-groups {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    footer {
+        height: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    #footer-menu {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #social-links {
+        background-color: black;
+    }
+
 }
