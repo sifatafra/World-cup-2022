@@ -209,7 +209,7 @@ footer {
 
 /* media query for tabs */
 
-@media only screen and (min-width:689px) and(max-width:1024px) {
+@media only screen and (min-width:689px) and(max-width:992px) {
     .button-group {
         display: flex;
         flex-direction: row;
