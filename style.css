@@ -213,7 +213,15 @@ footer {
     .button-group {
         display: flex;
         flex-direction: row;
+
         width: 100%;
         background-color: antiquewhite;
+        visibility: visible;
+
     }
+}
+
+.all-groups {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
