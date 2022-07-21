@@ -30,8 +30,9 @@ nav {
     border-radius: 5px;
 
 
-
 }
+
+
 
 /* -----------------------
       grid layout styles 
@@ -205,3 +206,12 @@ footer {
 }
 
 /* media query for tabs */
+
+@media only screen and (min-width:688px) and(max-width:992px) {
+    .button-group {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: antiquewhite;
+    }
+}
