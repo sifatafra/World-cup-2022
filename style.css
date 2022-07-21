@@ -53,11 +53,13 @@ td {
 button styles
 -------------------*/
 .button-group {
+    text-decoration: none;
     background-color: black;
     width: 15%;
     height: 30%;
     align-items: center;
     margin-top: 10px;
+
 }
 
 .orange-button {
@@ -207,7 +209,7 @@ footer {
 
 /* media query for tabs */
 
-@media only screen and (min-width:688px) and(max-width:992px) {
+@media only screen and (min-width:689px) and(max-width:1024px) {
     .button-group {
         display: flex;
         flex-direction: row;
