@@ -86,6 +86,17 @@ button styles
 
 }
 
+.flags {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flags img {
+    width: 10%;
+}
+
 .matches img {
     width: 60%;
 
@@ -97,6 +108,16 @@ button styles
     box-shadow: 40px;
     justify-content: center;
 
+}
+
+.tab-button {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 20px;
+    color: #E8E8E8;
+    font-size: larger;
+    display: none;
 }
 
 /*----------------------
@@ -128,6 +149,8 @@ footer {
     padding: 10px;
     color: #E8E8E8;
 }
+
+
 
 /* -----------------------------
      media query for mobiles
@@ -180,3 +203,5 @@ footer {
     }
 
 }
+
+/* media query for tabs */
